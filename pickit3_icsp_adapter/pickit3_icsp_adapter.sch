@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:pickit3_icsp_adapter-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -30,7 +31,7 @@ U 1 1 5CCEB4B5
 P 4350 2450
 F 0 "J1" H 4456 2828 50  0000 C CNN
 F 1 "Conn_01x06_Male" H 4456 2737 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Horizontal" H 4350 2450 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 4350 2450 50  0001 C CNN
 F 3 "~" H 4350 2450 50  0001 C CNN
 	1    4350 2450
 	1    0    0    -1  
@@ -63,19 +64,4 @@ Text Label 4950 2650 0    50   ~ 0
 ICSPCLK
 Text Label 4950 2750 0    50   ~ 0
 LVP
-$Comp
-L Mechanical:MountingHole_Pad H1
-U 1 1 5CCEBD79
-P 5150 3150
-F 0 "H1" V 5104 3300 50  0000 L CNN
-F 1 "MountingHole_Pad" V 5195 3300 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 5150 3150 50  0001 C CNN
-F 3 "~" H 5150 3150 50  0001 C CNN
-	1    5150 3150
-	0    1    1    0   
-$EndComp
-Text Label 4750 3150 0    50   ~ 0
-VSS
-Wire Wire Line
-	4750 3150 5050 3150
 $EndSCHEMATC
